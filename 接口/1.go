@@ -20,7 +20,7 @@ func (struct_name_varible struct_name method_name2()[return_type])
 
 
 
- */
+*/
 
 func main() {
 	var phone Phone

@@ -11,7 +11,7 @@ func main() {
 	maps := make(map[string]string)
 	for key, value := range maps {
 		fmt.Println(key, value)
-	}                   //空的map不能存放数据,nil
+	} //空的map不能存放数据,nil
 	maps["1"] = "hello" //给map增加数据
 	delete(maps, "1")
 	for key, value := range maps {

@@ -17,12 +17,12 @@ func main() {
 	fmt.Printf("maxnum=%d minnum=%d\n", maxnum, minnum)
 	//也可以通过匿名变量丢弃返回值
 	/*
-	maxnum,_:=funcMAXMIN(1,2)
-	fmt.Printf("maxnum=%d \n", maxnum)
-	 */
+		maxnum,_:=funcMAXMIN(1,2)
+		fmt.Printf("maxnum=%d \n", maxnum)
+	*/
 
 }
-func myfunc() (int) {
+func myfunc() int {
 	return 666
 }
 
@@ -34,7 +34,7 @@ func myfunc01() (result int) {
 } //最好给返回值一个类型
 /*
 返回多个值的函数
- */
+*/
 func myfunc02() (numa, numb int) {
 	numa, numb = 1, 2
 	return numa, numb

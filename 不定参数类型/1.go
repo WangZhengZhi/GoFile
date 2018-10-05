@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	MyFunction(1, 1, 2, 3, 4, 5, 6)
-	test(1, 2,3, 4)
+	test(1, 2, 3, 4)
 }
 func MyFunction(num int, nums ...int) {
 	fmt.Printf("%d\n", num)
